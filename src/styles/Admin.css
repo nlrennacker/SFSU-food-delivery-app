@@ -1,0 +1,100 @@
+.matrix-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    animation: fade-out 4s ease-in-out forwards;
+}
+ 
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.1;
+    }
+
+    80% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.admin-div{
+    background-color: #161d30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-div h1{
+    margin: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+.admin-users {
+    border-radius: 5px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.admin-users h1{
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.info{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.admin-user-info{
+    color: white;
+    display: flex;
+    width: 30%;
+    margin: 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info.even {
+    background-color: rgb(70, 70, 70);
+    
+}
+.info.odd {
+    background-color: rgb(51, 51, 51);
+}
+
+.admin-delete{
+    color: white;
+    background-color: rgb(230, 12, 12);
+    width: 5%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.text-area{
+    background-color: black;
+    color: greenyellow;
+    resize: none;
+    height: 90%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.text-area:focus{
+    border: 2px solid white;
+}
+  
