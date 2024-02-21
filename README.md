@@ -2,7 +2,7 @@
 
 **Food Feast** is a collaborative web application developed by a team of software engineers. It showcases my skills in working with a team and utilizing modern technologies. The app simplifies food ordering and delivery for the San Francisco State University (SFSU) community, including students, staff, and faculty.
 
-My Role: **BackEnd Lead**
+My Role: **Software Developer**
 
 View App Live: http://35.160.127.228/
 
